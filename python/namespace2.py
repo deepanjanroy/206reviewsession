@@ -1,9 +1,11 @@
 x = 5
 
-def innocent():
+def icanteven():
+    global x
     x = 7
     print x
 
+
 print x
-innocent()
+icanteven()
 print x
